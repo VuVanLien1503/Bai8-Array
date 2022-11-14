@@ -1,0 +1,24 @@
+1. mảng là gì
+-mảng là một loại biến đặc biệt có thể lưu nhiều giá trị
+không như biến thông thường chỉ lưu được một giá trị
+- mỗi giá trị trong mảng được gọi là phần tử
+-các phần tử được lưu ở các vị trí kế tiếp nhau trong bộ nhớ 
+
+2. các khái niệm mảng:
+- tên mảng : quy tắc đặt tên như biến
+- Phần tử : các phần tử được lưu trong mảng
+-Chỉ số : vị trí các phần tử trong mảng bắt đầu từ số 0
+- độ dài : số lượng các phần tử trong mảng
+
+3. khai báo mảng : 
+	Cách 1 : var array_name = [ item1 , item2 , .... ];
+	cách 2 : var array_name =  new array ( item1 , item2 ,....);
+
+4. Truy xuất phần tử trong mảng :
+	 truy xuất  các phần tử thông qua chỉ số đặt trong dấu [ ];
+
+5. dùng vòng lặp for - for in để duyệt mảng : 
+	- dùng for có thể duyệt mảng từ đầu -> cuối và ngược lại
+	-  for in thì chỉ duyể được từ đầu đến cuối.
+	- dùng index để duyệt được for còn for in không dùng index để duyệt mảng
+

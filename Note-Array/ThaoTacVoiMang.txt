@@ -1,0 +1,28 @@
+		Thao Tác Với Mang :
+1. Thêm Phần Tử Vào mảng : 
+ - push();
+	Phương thức push() cho phép ta thêm phần tử vào cuối mảng
+	array_name.push (" Phần tử cần thêm ") ; 
+- length
+	arrayName[arrayName.length];
+	thêm phần tử vào cuối mảng
+-pop();
+	xóa phần tử cuối của mảng
+shift() ;
+	thêm phần tử vào đầu mảng
+unshift();
+	xóa phần tử ở đầu mảng
+
+2. phương thức join()
+	chuyển tất cả các phần tử trong mảng thành chuỗi vào nối chúng với nhau
+3.phương thức reverse() 
+	đảo ngược các phần tử trong mảng 
+4.phương thức sort() 
+	sắp xếp các phần tử của mảng
+5. Phương thước  concat()
+	 nối các phần tử của 2 mảng với nhau
+6. phương thức toString ()
+	chuyển các phần tử trong mảng sang dạng chuỗi
+
+
+

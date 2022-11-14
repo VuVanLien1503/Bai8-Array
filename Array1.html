@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrayName = new Array("1","2","3");
+    let arrayName1 = new Array("11","12","13");
+    for (let i =0;i <= arrayName.length-1;i++){
+        console.log("phan tu "+ i +" = "+arrayName[i]);
+    }
+     console.log("do dai mang arrayName = "+ arrayName.length);
+    arrayName.push("4");
+    console.log(arrayName);
+    arrayName[arrayName.length]="5";
+    console.log(arrayName);
+    console.log(arrayName.join(" "))
+    console.log(" reverse() = "+arrayName.reverse());
+    console.log("sort() = "+arrayName.sort());
+    console.log("concat() = "+ arrayName.concat(arrayName1));
+    for (let i in arrayName){
+        console.log(arrayName[i]);
+    }
+
+
+
+</script>
+</body>
+</html>

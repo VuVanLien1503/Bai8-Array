@@ -1,0 +1,17 @@
+mảng đa chiều là mảng có các phần tử là các mảng khác nhau
+có thể có mang 2 chiều 3 chiều hoặc nhiều hơn
+- mảng 2 chiều cần 2 chỉ số để xác định phần tử của mảng
+-mảng 2 chiều gồm các phần tử , mỗi phần tử là một mảng 1 chiều 
+
+	khởi tạo mảng 2 chiều : 
+cách 1 : sử dụng dấu ngoặc vuông để tạo mảng và các phần tử
+	let array =[
+		[ element ]
+		[ element ]
+		[ element ]
+];
+
+cách 2 : sử dụng từ khóa new để tạo mảng 
+	let array_name = new Array (3); khỏi tạo mảng với 3 dòng 3 cột
+	
+

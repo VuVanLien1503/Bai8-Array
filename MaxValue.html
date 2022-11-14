@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim Gia tri Lon nhat trong array</title>
+  <div>
+    <table>
+      <tr>
+        <td><button onclick="maxValue()">MaxValue</button></td>
+      </tr>
+      <tr>
+        <td colspan="2" id="resultArray"> Array</td>
+      </tr>
+      <tr>
+        <td><p id="resultMaxValue">Ket Qua</p></td>
+      </tr>
+    </table>
+  </div>
+</head>
+<body>
+<script>
+  function creatArray(){
+    let arrayName=new Array();
+    for (let i=0 ; i<10;i++){
+      arrayName.push(Math.floor(Math.random()*100));
+    }
+        return arrayName;
+  }
+  function maxValue(){
+      let array=creatArray();
+      let numberMax= array[0];
+      let index=0;
+      for (let i=0; i<array.length;i++){
+        if (array[i] >numberMax){
+          numberMax=array[i]
+          index=i;
+        }
+      }
+      document.getElementById("resultArray").innerHTML=array;
+      document.getElementById("resultMaxValue").innerHTML=
+              " Max = " + numberMax+" Index = "+index;
+
+  }
+
+</script>
+</body>
+</html>
